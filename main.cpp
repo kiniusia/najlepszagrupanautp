@@ -9,11 +9,23 @@ string imie;
 
 int main()
 {
+	int a;
 	cout << "Podaj swoje imie: ";
 	cin >> imie;
 
 	cout << "Podaj swoja ulubiona liczbe: ";
 	cin >> liczba;
+	
+	cout << "Podaj plec: (k/m)";
+	cin >> a;
+	while (a == k)
+	{
+		cout << "Uzytkownik jest plci zenskiej" << endl;
+	}
+	else
+	{
+		cout << "Uzytkownij jest plci meskiej" << endl;
+	}
 
 	system("cls");
 
